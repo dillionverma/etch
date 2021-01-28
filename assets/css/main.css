@@ -9,11 +9,12 @@ html {
 body {
     font-size: 16px;
     font-size: 1.6rem;
-    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Open Sans', sans-serif;
     color: #313a3d;
     width: 100%;
     margin: 0 auto;
-    padding: 0 16px;
+    padding: 0 10% 32px 10%;
     line-height: 1.6;
 }
 
@@ -61,6 +62,15 @@ header#banner nav ul li a {
 main#content a {
     color: #007dfa;
     text-decoration: none;
+}
+
+main#content .profile {
+    width: 120px;
+    height: 120px;
+}
+
+main#content .profile img {
+    border-radius: 5%;
 }
 
 main#content a:hover {
@@ -120,6 +130,7 @@ main#content ul#posts small {
     font-size: 0.8em;
     color: #767676;
     margin-left: 10px;
+    /* float: right; */
 }
 
 main#content ul#posts li a {
